@@ -1,0 +1,19 @@
+{
+  "name": "homestuff",
+  "version": "1.0.0",
+  "description": "Homestuff - to order your stuff at home.",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goetzmoritz/homestuff.git"
+  },
+  "author": "goetzmoritz",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/goetzmoritz/homestuff/issues"
+  },
+  "homepage": "https://github.com/goetzmoritz/homestuff#readme"
+}

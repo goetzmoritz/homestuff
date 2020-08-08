@@ -17,6 +17,11 @@ const db = mongoose.connection
 db.on('error', (error) => console.error(error))
 db.once('open', () => console.log('Connected to mongodb.'))
 app.use(express.json())
+
+//Routes
+const thingRoute = require('./routes/thingRoute')
+app.use('/things', thingRoute)
+
 app.listen(dotenv.MYPORT, function(){
     console.log(`Backend started on port ${dotenv.MYPORT}.`)
 })
